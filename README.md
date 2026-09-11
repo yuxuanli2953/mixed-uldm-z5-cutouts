@@ -52,9 +52,4 @@ The exported IDs are 13, 14, 40, 63, 77, 97, **107**, 186, 198, **199**,
 
 IDs **107, 199, 271, and 273** are the higher-priority relaxed candidates:
 they additionally satisfy $X_{\rm off}/R_{\rm vir}<0.07$ and
-$|\eta-1|<0.35$, where $\eta\equiv2T/|U|$. The other 32 are retained for halo-to-halo comparisons,
-but at least one of these two relaxation diagnostics lies outside the adopted
-reference range. This does not prove that they are unsuitable: the parent
-$195\,\mathrm{kpc}$ grid does not resolve their centres well, and a single
-$z=0$ catalog cannot by itself rule out a recent major merger. Merger histories
-are therefore required before treating those objects as clean relaxed halos.
+$|\eta-1|<0.35$, where $\eta\equiv2T/|U|$.
