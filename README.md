@@ -144,7 +144,6 @@ The boundary of the snapshot is defined by the smallest cube that contains parti
 ### h5 file structure
 
 Directory: `f=0.01_m=1e-24_amr_zoomin_halo271/`.
-Files contain consecutive rows, with up to 1,000,000 cells per part and less than 100 MB per file.
 
 | Folder | Files | Total cells |
 | --- | ---: | ---: |
@@ -157,7 +156,7 @@ Files contain consecutive rows, with up to 1,000,000 cells per part and less tha
 | --- | --- | --- |
 | `cells/center_cmpc` | $(N,3)$ | comoving cell-center coordinates, Mpc |
 | `cells/width_cmpc` | $(N,)$ | comoving cubic cell side length,  Mpc |
-| `cells/level` | $(N,)$ | Actual AMR level |
+| `cells/level` | $(N,)$ | AMR level |
 | `cells/rho_cdm` | $(N,)$ | physical CDM density,  $M_\odot\,\mathrm{kpc}^{-3}$ |
 | `cells/rho_uldm` | $(N,)$ | physical ULDM density,  $M_\odot\,\mathrm{kpc}^{-3}$ |
 | `cells/psi_uldm_real` | $(N,)$ | Wavefunction real part, $(M_\odot\,\mathrm{kpc}^{-3})^{1/2}$ |
